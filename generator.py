@@ -61,4 +61,4 @@ while photo > 0:
 		pass
 
 
-print(f'[+] Complete, photos saved in file {filename}')
+print(f'[+] Complete, photos saved in file {filename}.html')
