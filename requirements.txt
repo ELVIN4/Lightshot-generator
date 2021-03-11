@@ -1,3 +1,2 @@
 beautifulsoup4
 user_agent
-lxml

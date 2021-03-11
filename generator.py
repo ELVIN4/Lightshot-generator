@@ -46,7 +46,7 @@ while photo > 0:
 		url += random.choice(text)
 
 	html = requests.get(f'https://prnt.sc/{url}', headers={'User-agent':generate_user_agent(device_type='desktop', os=('linux'))}).text
-	soup = bs(html, 'lxml')
+	soup = bs(html, 'html.parser')
 	img = soup.find(class_='no-click screenshot-image')
 
 	try:
